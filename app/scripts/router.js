@@ -23,19 +23,22 @@ const Router = Backbone.Router.extend({
     // 'card5': 'card5'
   },
   login(){
-    ReactDom.render(<Nav/>, container)
     ReactDom.render(<Login/>, container)
   },
   signup(){
-    ReactDom.render(<Nav/>, container)
+    // ReactDom.render(<Nav/>, container)
     ReactDom.render(<Signup/>, container)
   },
-  card(){
-    ReactDom.render(<Nav/>, container)
-    ReactDom.render(<Card data={data}/>, container)
+  card(name){
+    let singleCard = data.filter((card, i, arr) => {
+      if(card.name === name){
+        return true;
+      }
+    });
+    // ReactDom.render(<Nav/>, container)
+    ReactDom.render(<Card data={singleCard[0]}/>, container)
   },
   create(){
-    ReactDom.render(<Nav/>, container)
     ReactDom.render(<CreateCard/>, container)
   }
 });

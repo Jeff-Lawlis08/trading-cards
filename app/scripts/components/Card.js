@@ -1,9 +1,11 @@
-// import data from '../data';
 import React from 'react';
+import Nav from './nav';
+
 const Card = React.createClass({
   render() {
     return (
       <div className="card">
+        <Nav/>
         <h2 className="card-title">{this.props.data.name}</h2>
           <img src={this.props.data.picture}/>
           <span className="ability">Ability: {this.props.data.ability}</span>
