@@ -21,7 +21,7 @@ const data = [{
 },
 {
   name: 'vacuum',
-  abiltiy: 'sucking',
+  ability: 'sucking',
   picture: './assets/images/vacuum.jpeg',
   durability: 6,
   cost: 'high'

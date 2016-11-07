@@ -1,0 +1,25 @@
+nav {
+ background-color: #006699;
+  padding: 2rem auto;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  a{
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 50%;
+  background-color: #B2382D;
+  color: white;
+  border: 0.5px solid gray;
+}
+}
+@media(min-width: 400px) {
+  a {
+    width: 15%;
+    display: inline-block;
+  }
+}

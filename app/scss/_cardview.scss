@@ -1,0 +1,24 @@
+.card{
+  text-align: center;
+  h2 {
+    width: 30%;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 25%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  margin-bottom: 1rem;
+  }
+  span {
+    display: block;
+    color: white;
+    text-decoration: underline;
+  }
+}
